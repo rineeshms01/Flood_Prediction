@@ -325,8 +325,7 @@ with st.sidebar:
     # Quick stats
     st.markdown("### 📈 Quick Stats")
     col1, col2 = st.columns(2)
-    with col1:
-        st.metric("Predictions", "12,847", "↗️ 234")
+    
     with col2:
         st.metric("Accuracy", "94.2%", "↗️ 1.2%")
 
