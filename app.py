@@ -324,9 +324,9 @@ with st.sidebar:
     
     # Quick stats
     st.markdown("### 📈 Quick Stats")
-    col1, col2 = st.columns(2)
+    col1 = st.columns(1)
     
-    with col2:
+    with col1:
         st.metric("Accuracy", "94.2%", "↗️ 1.2%")
 
 # Weather Forecast API (enhanced with fallback)
