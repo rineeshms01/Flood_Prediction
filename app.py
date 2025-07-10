@@ -324,9 +324,10 @@ with st.sidebar:
     
     # Quick stats
     st.markdown("### 📈 Quick Stats")
-    col1 = st.columns(1)
-    
+    col1, col2 = st.columns(2)
     with col1:
+        st.metric("Predictions", "107", "↗️ 50")
+    with col2:
         st.metric("Accuracy", "94.2%", "↗️ 1.2%")
 
 # Weather Forecast API (enhanced with fallback)
@@ -384,7 +385,6 @@ with col2:
         category = "High"
         color = "#e74c3c"
         icon = "🌧️"
-
     
     st.markdown(f"""
     <div class="metric-card" style="text-align: center; border-left: 4px solid {color};">
