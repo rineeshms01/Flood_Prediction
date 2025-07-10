@@ -377,7 +377,7 @@ with col2:
         category = "Low"
         color = "#2ecc71"
         icon = "☀️"
-    elif week_rainfall < 75:
+    elif week_rainfall < 100:
         category = "Moderate"
         color = "#f39c12"
         icon = "🌦️"
@@ -385,6 +385,7 @@ with col2:
         category = "High"
         color = "#e74c3c"
         icon = "🌧️"
+
     
     st.markdown(f"""
     <div class="metric-card" style="text-align: center; border-left: 4px solid {color};">
