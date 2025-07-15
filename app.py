@@ -24,7 +24,7 @@ TWILIO_PHONE_NUMBER = "+917025641768"
 
 # Page configuration
 st.set_page_config(
-    page_title="Flood Prediction System",
+    page_title="Smart Flood Alert System",
     page_icon="🌊",
     layout="wide",
     initial_sidebar_state="expanded"
