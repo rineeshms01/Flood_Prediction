@@ -14,13 +14,13 @@ from twilio.rest import Client
 warnings.filterwarnings('ignore')
 
 # Constants for weather API
-API_KEY = "your_api_key_here"  # Replace with real API key
+API_KEY = "03511b737b6943d8821100407250901"
 API_URL = "http://api.weatherapi.com/v1/forecast.json"
 
 # Twilio Configuration
 TWILIO_ACCOUNT_SID = "ACae66d7824542d70cc5133446e4a16d20"
 TWILIO_AUTH_TOKEN = "d9598ed9ef6f3d95b2cf4fc30e10aafe"
-TWILIO_PHONE_NUMBER = "+12156108493"
+TWILIO_PHONE_NUMBER = "+917025641768"
 
 # Page configuration
 st.set_page_config(
