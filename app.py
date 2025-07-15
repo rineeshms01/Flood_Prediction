@@ -267,7 +267,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header with enhanced design
-st.markdown('<h1 class="main-header">🌊 Flood Prediction System</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">🌊 Smart FLood Alert System</h1>', unsafe_allow_html=True)
 
 # Create a more sophisticated sidebar
 with st.sidebar:
